@@ -1,0 +1,15 @@
+pygame
+typing
+datetime
+time
+sys
+math
+os
+tkinter
+random
+pickle
+requests
+webbrowser
+pathvalidate
+customtkinter
+numpy
