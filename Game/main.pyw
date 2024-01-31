@@ -90,7 +90,7 @@ class Windows(tk.Tk):
 
 if __name__ == '__main__' :
     try: 
-        url = 'https://raw.githubusercontent.com/fantasijump/projet-5web/main/version.txt'
+        url = 'https://raw.githubusercontent.com/ahmedmathsinfo/TheWarGame-main/main/Media/version.txt'
         page = requests.get(url)
         if int(page.text) != version :
             messagebox.showwarning('Mise a jour', 'Une Nouvelle mise a jour est disponible ! (vous pouvez quand meme acceder au jeu) : \n {}')
